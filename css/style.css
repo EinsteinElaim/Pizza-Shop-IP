@@ -2,6 +2,16 @@ body{
     background-image: url("/pexels-photo-2231158.jpeg");
 }
 
-.content{
+.header{
     text-align: center;
+    background-color: rgb(235, 143, 5);
+    color: black;
+}
+
+.content{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(235, 143, 5);
+
 }
