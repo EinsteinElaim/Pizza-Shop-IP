@@ -35,7 +35,7 @@ to {
 .content{
     
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     text-align: center;
     /* background-color: rgb(235, 143, 5); */
     opacity: .8;
@@ -69,4 +69,27 @@ button{
 
 .jumbotron-fluid{
     color: white;
+}
+
+.sociallinks{
+    margin-top: 15%;
+}
+
+.sociallinks{
+    height: auto;
+}
+
+.sociallinks p{
+    text-align: center;
+    font-family: arial;
+    font-size: xx-large;
+}
+
+.sociallinks ul{
+    text-align: center;
+}
+
+.sociallinks ul li{
+    list-style-type: none;
+    display: inline;
 }
