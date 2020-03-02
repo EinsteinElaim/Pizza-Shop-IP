@@ -1,13 +1,35 @@
 body{
-    background-image: url("/images/pexels-photo-2231158.jpeg");
+    background-image: linear-gradient(to bottom, rgba(29, 26, 26, 0.52), rgba(37, 35, 37, 0.73)), url("../images/pexels-photo-2231158.jpeg");
+    font-size: x-large;
+    color: white;
+
 }
 
 .header{
-    margin-top: 25%;
+    margin-top: 50px;
     text-align: center;
-    background-color: rgb(235, 143, 5);
+    /* background-color: rgb(235, 143, 5); */
     color: black;
     opacity: .8;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@-webkit-keyframes glow {
+from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
 }
 
 .content{
@@ -15,7 +37,7 @@ body{
     padding-top: 20px;
     padding-bottom: 40px;
     text-align: center;
-    background-color: rgb(235, 143, 5);
+    /* background-color: rgb(235, 143, 5); */
     opacity: .8;
 
 }
@@ -43,4 +65,8 @@ button{
     90%{background-color: rgb(90, 39, 170);}
     100%{background-color: rgb(153, 24, 185);}
     110%{background-color: rgb(145, 20, 134);}
+}
+
+.jumbotron-fluid{
+    color: white;
 }
