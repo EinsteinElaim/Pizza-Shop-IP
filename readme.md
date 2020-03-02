@@ -16,18 +16,10 @@ Also, the user can select the type of pizza base density they like which still h
 
 And finally, the user can checkout their items by pressing the checkout button which gives the user a pop-up message which shows them the pizza size they have ordered, the toppings they selected and the final price to pay.
 ## Welcome Section
-On opening the site, the user gets an interactive layout to the site.
+On opening the site, the user gets an interactive layout to the site with a welcome note from us at the pizza shop.
 
 ## About Us Section
-The user can check out the about us section rght after the welcome section for brief details about Delani Studio and what they do there.
-
-## Services Section
-After the About Us section, the user will see the Services section which is comprised of brief descriptions of the order of how Delani Studio's team goes about understanding the product vision of a contract before they act on it.
-Then they hold a scoping session whose outcome is a proposal or high-level statement of work.
-Finally, based on your requirements, Delani Studio's team can provide a complete offering or just the pieces you need for the project.
-
-## What We Do Section
-This section consists of
+The user can check out the about us section rght after the welcome section for brief details about My Pizza Shop and what we do there.
 
 ### Known Bugs
 As is, the project contains no known bugs.
@@ -38,7 +30,7 @@ HTML, Bootstrap, CSS, jQuery & Javascript.
 
 ### Contact me on: einsteineliam@gmail.com
 I encourage anyone who has any contribution to make to this code to improve it do so. 
-Live link:https://einsteinelaim.github.io/Delani-Studio/
+Live link:https://github.com/EinsteinElaim/Pizza-Shop-IP/tree/Development
 
 
 ### License

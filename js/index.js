@@ -8,6 +8,7 @@ var baseValueTaker, base;
 var toppingValueTaker, toppingTaker;
 var selectedSize, selectedBase, selectedTopping;
 var myNewPizza;
+var deliveryCharge = 300;
 
 
 // 3
@@ -144,6 +145,8 @@ function pizzasize(){
         amount = 0;
         selectedSize = null;
     }
+    var location = prompt("Do you want your pizza delivered ?");
+    alert(`Your Pizza will be delivered at ${location} and the delivery charges are ${deliveryCharge} . The total cost is ${totalCost}`);
 }
 
 // 1
