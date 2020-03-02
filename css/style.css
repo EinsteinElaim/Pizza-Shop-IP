@@ -1,3 +1,7 @@
 body{
-    background-color: rgb(255, 166, 0);
+    background-image: url("/pexels-photo-2231158.jpeg");
+}
+
+.content{
+    text-align: center;
 }
