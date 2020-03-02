@@ -6,6 +6,7 @@ body{
     text-align: center;
     background-color: rgb(235, 143, 5);
     color: black;
+    opacity: .8;
 }
 
 .content{
@@ -13,5 +14,31 @@ body{
     padding-bottom: 40px;
     text-align: center;
     background-color: rgb(235, 143, 5);
+    opacity: .8;
 
+}
+
+button{
+    animation: change 15s infinite;
+    animation-delay: 25ms;
+    color: black;
+    font-family: arial;
+    font-size: xx-large;
+    border: none;
+    border-radius: 15px;
+}
+
+@keyframes change {
+    0%{background-color: rgb(145, 20, 134);}
+    10%{background-color: rgb(170, 34, 57);}
+    20%{background-color: rgb(250, 42, 35);}
+    30%{background-color: rgb(238, 86, 15);}
+    40%{background-color: rgb(207, 172, 16);}
+    50%{background-color: rgb(97, 184, 26);}
+    60%{background-color: rgb(31, 182, 169);}
+    70%{background-color: rgb(34, 121, 221);}
+    80%{background-color: rgb(20, 49, 148);}
+    90%{background-color: rgb(90, 39, 170);}
+    100%{background-color: rgb(153, 24, 185);}
+    110%{background-color: rgb(145, 20, 134);}
 }
