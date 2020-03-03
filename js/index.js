@@ -74,7 +74,7 @@ function blackOlives(){
     selectedTopping = toppping[6];
 }
 
-function greenPeppers(){
+function greenPepper(){
     selectedTopping = toppping[7];
 }
 
