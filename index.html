@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css">
-    
+    <script src="/js/index.js" async></script>
     <title>Document</title>
 </head>
 <body>
@@ -18,13 +18,19 @@
         </div>
     </div>
     <div class="content">
-            <p>Select your pizza size :</p>
+        <p>Select your pizza size :</p>
         <select name="" id="">
             <option value=500 onclick="pizzasmall();" id="small">Small</option>
             <option value=700 onclick="pizzamedium();" id="medium">Medium</option>
             <option value=1000 onclick="pizzalarge();" id="large">Large</option>
             <option value=1200 onclick="pizzamega();" id="mega">Mega</option> 
         </select>
+        <!-- <p>Select your pizza crust :</p>
+        <select name="" id="">
+            <option value="crispy" onclick="crispy();" id="crispy">Crispy</option>
+            <option value="stuffed" onclick="stuffed();" id="stuffed">Stuffed</option>
+            <option value=glutenfree onclick="glutenFree();" id="glutenFree">Gluten-Free</option>
+        </select> -->
         <p>Select your pizza base size :</p>
         <select name="" id="">
             <option value="thin" onclick="thinbase();" id="thinbase">Thin</option>
@@ -61,7 +67,6 @@
             </ul>
         </div>
     </div>
-    <script src="/js/index.js"></script>
 
 
 </body>
