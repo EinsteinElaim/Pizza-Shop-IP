@@ -10,6 +10,7 @@ var selectedSize, selectedBase, selectedTopping;
 var myNewPizza;
 var deliveryCharge = 300;
 var totalCost;
+var crispyy, stuffedd, glutenFreee, crust, crustValue;
 
 
 // 3
@@ -40,6 +41,29 @@ function selectingTopping(){
         alert("Pick a topping and pizza size");
     }
 }
+
+// 1
+//Crust handler
+// function crispy(){
+//     crispyy = document.getElementById('crispy').value;
+//     crustValue = "Crispy";
+// }
+
+// function glutenFree(){
+//     stuffedd = document.getElementById('stuffed').value;
+//     crustValue = "Gluten-Free";
+// }
+
+// function stuffed(){
+//     glutenFreee = document.getElementById('glutenFree').value;
+//     crustValue = "Stuffed";
+// }
+
+// // 1
+// //crust value handlers
+// function crustVal(){
+    
+// }
 
 
 
@@ -122,6 +146,10 @@ function mediumbase(){
 function thickbase(){
     selectedBase = document.getElementById('thickbase').value;
 }
+
+
+
+
 // 1
 //Pizza amount handler for checkout
 function pizzasize(){
@@ -173,5 +201,12 @@ function pizzaBaseSize(){
         base = baseSize[2];
         baseValueTaker = 200;
     }
+//     if(crustValue=="crispy"){
+//         crust=50;
+//     }else if(crustValue=="stuffed"){
+//         crust=70;
+//     }else if(crustV=="glutenfree"){
+//         crust=100;
+//     }
 }
 
