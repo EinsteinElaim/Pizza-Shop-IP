@@ -1,3 +1,97 @@
 body{
-    background-color: rgb(255, 166, 0);
+    background-image: linear-gradient(to bottom, rgba(29, 26, 26, 0.52), rgba(37, 35, 37, 0.73)), url("../images/pexels-photo-2231158.jpeg");
+    font-size: x-large;
+    color: white;
+
+}
+
+.header{
+    margin-top: 50px;
+    text-align: center;
+    /* background-color: rgb(235, 143, 5); */
+    color: black;
+    opacity: .8;
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@-webkit-keyframes glow {
+from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+
+.content{
+    
+    padding-top: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    /* background-color: rgb(235, 143, 5); */
+    opacity: .8;
+
+}
+
+button{
+    animation: change 15s infinite;
+    animation-delay: 25ms;
+    color: black;
+    font-family: arial;
+    font-size: xx-large;
+    border: none;
+    border-radius: 15px;
+}
+
+@keyframes change {
+    0%{background-color: rgb(145, 20, 134);}
+    10%{background-color: rgb(170, 34, 57);}
+    20%{background-color: rgb(250, 42, 35);}
+    30%{background-color: rgb(238, 86, 15);}
+    40%{background-color: rgb(207, 172, 16);}
+    50%{background-color: rgb(97, 184, 26);}
+    60%{background-color: rgb(31, 182, 169);}
+    70%{background-color: rgb(34, 121, 221);}
+    80%{background-color: rgb(20, 49, 148);}
+    90%{background-color: rgb(90, 39, 170);}
+    100%{background-color: rgb(153, 24, 185);}
+    110%{background-color: rgb(145, 20, 134);}
+}
+
+.jumbotron-fluid{
+    color: white;
+}
+
+.sociallinks{
+    margin-top: 5%;
+}
+
+
+
+.sociallinks{
+    height: auto;
+}
+
+.sociallinks p{
+    text-align: center;
+    font-family: arial;
+    font-size: xx-large;
+}
+
+.sociallinks ul{
+    text-align: center;
+}
+
+.sociallinks ul li{
+    list-style-type: none;
+    display: inline;
 }
