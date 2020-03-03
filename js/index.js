@@ -8,6 +8,8 @@ var baseValueTaker, base;
 var toppingValueTaker, toppingTaker;
 var selectedSize, selectedBase, selectedTopping;
 var myNewPizza;
+var deliveryCharge = 300;
+var totalCost;
 
 
 // 3
@@ -126,21 +128,33 @@ function pizzasize(){
     if(valueTaker==500){
         amount = adder + baseValueTaker + toppingValueTaker + 500;
         alert(`You have selected ${selectedSize} pizza size with ${base} base and ${selectedTopping} topping. Your amount is ${amount} .`);
+        var location = prompt("Do you want your pizza delivered ? Enter address :");
+        totalCost = deliveryCharge + amount;
+        alert(`Your Pizza will be delivered at ${location} and the delivery charges are ${deliveryCharge} . The total cost is ${totalCost}`);
         amount = 0;
         selectedSize = null;
     }else if(valueTaker==700){
         amount = adder + baseValueTaker + toppingValueTaker + 700;
         alert(`You have selected ${selectedSize} pizza size with ${base} base and ${selectedTopping} topping. Your amount is ${amount} .`);
+        var location = prompt("Do you want your pizza delivered ? Enter address :");
+        totalCost = deliveryCharge + amount;
+        alert(`Your Pizza will be delivered at ${location} and the delivery charges are ${deliveryCharge} . The total cost is ${totalCost}`);
         amount = 0;
         selectedSize = null;
     }else if(valueTaker==1000){
         amount = adder + baseValueTaker + toppingValueTaker + 1000;
         alert(`You have selected ${selectedSize} pizza size with ${base} base and ${selectedTopping} topping. Your amount is ${amount} .`);
+        var location = prompt("Do you want your pizza delivered ? Enter address :");
+        totalCost = deliveryCharge + amount;
+        alert(`Your Pizza will be delivered at ${location} and the delivery charges are ${deliveryCharge} . The total cost is ${totalCost}`);
         amount = 0;
         selectedSize = null;
     }else if(valueTaker==1200){
         amount = adder + baseValueTaker + toppingValueTaker + 1200;
         alert(`You have selected ${selectedSize} pizza size with ${base} base and ${selectedTopping} topping. Your amount is ${amount} .`);
+        var location = prompt("Do you want your pizza delivered ? Enter address :");
+        totalCost = deliveryCharge + amount;
+        alert(`Your Pizza will be delivered at ${location} and the delivery charges are ${deliveryCharge} . The total cost is ${totalCost}`);
         amount = 0;
         selectedSize = null;
     }
