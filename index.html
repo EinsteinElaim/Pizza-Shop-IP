@@ -3,12 +3,22 @@
     <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-4.4.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/index.js" async></script>
     <title>Document</title>
 </head>
 <body>
-    <p>Select your pizza size :</p>
+    <div class="header">
+        <h1 class="glow">My Pizza Shop</h1>
+        <div class="jumbotron-fluid">
+            <p>Welcome to My Pizza Shop!</p>
+            <p>You can make your custom pizza selection for ingredients, base thickness and toppings here.</p>
+            <p>You can also choose to have us deliver your pizza for you which adds a delivery fee of 300/= to all locations.</p>
+        </div>
+    </div>
+    <div class="content">
+        <p>Select your pizza size :</p>
     <select name="" id="">
         <option value=500 onclick="pizzasmall();" id="small">Small</option>
         <option value=700 onclick="pizzamedium();" id="medium">Medium</option>
@@ -19,7 +29,7 @@
     <select name="" id="">
         <option value="thin" onclick="thinbase();" id="thinbase">Thin</option>
         <option value="medium" onclick="mediumbase();" id="mediumbase">Medium</option>
-        <option value="thick" onclick="thickbase();" id="thickbase">Thick</option> 
+        <option value="thick" onclick="thickbase();" id="thickbase">Thick</option>
     </select>
     <p>Select your preffered pizza toppings</p>
     <select name="" id="">
@@ -37,5 +47,21 @@
     <br>
     <br>
     <button onclick="pizzaBaseSize(); selectingTopping(); pizzasize(); ">Checkout</button>
+    </div>
+    <div class="jumbotron-fluid">
+        <div class="sociallinks">
+                <p>Follow me on social media :</p>
+            <ul>
+                <li><a href="https://www.google.com" target="_blank"><img src="images/googleplus.png" alt="Find me on google!" width="60px" height="60px"></a></li>
+                <li><a href="https://m.facebook.com/einstein.green" target="_blank"><img src="images/facebook1.png" alt="Find me on facebook!" width="60px" height="60px"></a></li>
+                <li><a href="https://mobile.twitter.com/EliamEinstein" target="_blank"><img src="images/twitter.png" alt="Find me on twitter!" width="60px" height="60px"></a></li>
+                <li><a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.png" alt="Find me on linkedin!" width="60px" height="60px"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="images/instagram1.png" alt="Find me on instagram!" width="60px" height="60px"></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=+254713136804" target="_blank"><img src="images/whatsapp1.png" alt="Find me on google!" width="60px" height="60px"></a></li>
+            </ul>
+        </div>
+    </div>
+
+
 </body>
 </html>
